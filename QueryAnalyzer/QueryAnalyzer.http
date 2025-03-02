@@ -1,6 +1,6 @@
 @QueryAnalyzer_HostAddress = http://localhost:5209
 
-GET {{QueryAnalyzer_HostAddress}}/weatherforecast/
+POST {{QueryAnalyzer_HostAddress}}/api/execute/
 Accept: application/json
 
 ###
